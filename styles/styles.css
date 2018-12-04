@@ -29,7 +29,7 @@ body {
 
 body .add-card {
   padding: 15px 30px;
-  background-color: blue;
+  background-color: #9F32B2;
   font-size: 16px;
   color: white;
   border: none;
@@ -88,7 +88,7 @@ body .overlay .close-menu {
   border-radius: 50%;
   width: 60px;
   height: 50px;
-  background-color: lightgrey;
+  background-color: #00D7FF;
   cursor: pointer;
 }
 
@@ -131,7 +131,7 @@ body .overlay .new-card-form #back-card {
 
 body .overlay .new-card-form #submit-card-form {
   padding: 15px 30px;
-  background-color: blue;
+  background-color: #9F32B2;
   font-size: 16px;
   color: white;
   border: none;

@@ -24,7 +24,7 @@ body {
   position: relative;
   .add-card {
     padding: 15px 30px;
-    background-color: blue;
+    background-color: #9F32B2;
     font-size: 16px;
     color: white;
     border: none;
@@ -63,7 +63,7 @@ body {
       border-radius: 50%;
       width: 60px;
       height: 50px;
-      background-color: lightgrey;
+      background-color:#00D7FF;
       cursor: pointer;
       &:hover {
         background-color: black;
@@ -88,7 +88,7 @@ body {
       }
       #submit-card-form {
         padding: 15px 30px;
-        background-color: blue;
+        background-color:#9F32B2;
         font-size: 16px;
         color: white;
         border: none;

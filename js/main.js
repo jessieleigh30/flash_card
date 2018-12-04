@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
   let closeMenu = document.querySelector('.close-menu');
 
   //front card
-  let frontCard = document.querySelector('#frontcard');
+  let frontCard = document.querySelector('#front-card');
   //back card
-  let backCard = document.querySelector('#backcard');
+  let backCard = document.querySelector('#back-card');
   let cardForm = document.querySelector('.new-card-form');
 
   let userFrontCard;
@@ -24,17 +24,18 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   cardForm.addEventListener('submit', (event) => {
     event.preventDefault();
-    //console.log("this works");
+    console.log("this works");
     // userFrontCard = frontCard.value;
     // userBackCard = backCard.value;
     // console.log(frontCard.value);
     // console.log(backCard.value);
     // console.log(userFrontCard, userBackCard)
     //push this card to an array
-    // let card = {
-    //   front: frontCard.value,
-    //   back: backCard.value,
-    // }
+    let card = {
+      front: frontCard.value,
+      back: backCard.value,
+    }
+    console.log(card)
     // cardArray.push(card);
     // frontCard.innerHTML = "";
     // console.log(cardArray);
