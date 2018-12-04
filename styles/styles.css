@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+body .add-card {
+  padding: 15px 30px;
+  background-color: blue;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  -webkit-box-shadow: inset -2px -2px rgba(0, 0, 0, 0.4);
+          box-shadow: inset -2px -2px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1em;
+}
+
+body .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+}
+
+body .overlay .close-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1em;
+  color: white;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 50%;
+  width: 60px;
+  height: 50px;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+body .overlay .close-menu:hover {
+  background-color: black;
+}
+
+body .overlay .new-card-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .overlay .new-card-form #front-card,
+body .overlay .new-card-form #back-card {
+  font-family: 'PT Sans', sans-serif;
+  width: 400px;
+  height: 250px;
+  overflow: scroll;
+  background-color: white;
+  padding: 1em;
+  font-size: 18px;
+  resize: none;
+}
+
+body .overlay .new-card-form #back-card {
+  font-family: 'PT Sans', sans-serif;
+  margin-top: 10px;
+}
+
+body .overlay .new-card-form #submit-card-form {
+  padding: 15px 30px;
+  background-color: blue;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  -webkit-box-shadow: inset -2px -2px rgba(0, 0, 0, 0.4);
+          box-shadow: inset -2px -2px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1em;
+}
+/*# sourceMappingURL=styles.css.map */
